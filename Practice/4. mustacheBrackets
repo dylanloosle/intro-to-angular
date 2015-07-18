@@ -2,7 +2,7 @@
 
 $scope.title = "Winning!"
 
-<h2></h2>
+<h2>{{ title }}</h2>
 
 *****************************************************
 
@@ -13,7 +13,7 @@ $scope.dancer = {
 	stageName: 'Sparkles'
 }
 
-<span> </span>
+<span>{{ dancer.stageName }} </span>
 
 *****************************************************
 
@@ -30,4 +30,4 @@ $scope.dancers = [
 	}
 ]
 
-<div>Up Next : <span>   <span>
+<div>Up Next : <span> {{ dancers[1].stageName }}  <span>

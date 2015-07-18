@@ -2,7 +2,7 @@
 
 $scope.colors = ['red', 'orange', 'yellow', 'green', 'blue', 'purple']
 
-<div></div>
+<div data-ng-repeat="color in colors">{{ color }}</div>
 
 
 *****************************************************
@@ -20,8 +20,8 @@ $scope.heroes = [
 	}
 ]
 
-<div>
-
+<div data-ng-repeat="hero in heroes">
+{{ hero.alias }}
 </div>
 
 ***************************************************** 
@@ -39,6 +39,6 @@ $scope.heroes = [
 	}
 ]
 
-<div>
-
+<div data-ng-repeat="hero in heroes">
+{{ hero.alias }} : {{hero.name}}
 </div>

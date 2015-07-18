@@ -1,12 +1,14 @@
 Explain each of the following:
-
-ng-app
-ng-controller 
-$scope
-ng-model 
-{{}}
-ng-repeat
-filters
-General Overview of Services and Directives
-ng-show (Not in Video)
-ng-click
+/*
+ng-app = initiates the
+ng-controller = initiates the link between the controller and the HTML
+$scope = the actual command that connects the controller and the view
+ng-model = binds both controller and view
+{{}} = data binding
+ng-repeat = iterate something multiple times (used for lists like arrays and objects)
+filters = refining data
+Services/factory =
+Directives =
+ng-show (Not in Video) = showing specific things
+ng-click = clicking stuff
+*/

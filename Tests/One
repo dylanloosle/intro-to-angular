@@ -1,7 +1,7 @@
-What does the DOM stand for?
-What does is the relationship between javascrip the dom and what is rendered on the screen?
+What does the DOM stand for? Document Object Model
+What does is the relationship between javascript the dom and what is rendered on the screen? Javascript can manipulate the DOM
 
-What is MVC?
-What is the role of M
-What is the role of the V
+What is MVC? Model View Controller
+What is the role of M this is like a replica
+What is the role of the V this is the screen view, visual representation (HTML)
 What is the role of the C

@@ -2,7 +2,7 @@
 
 $scope.isAdmin = false;
 
-<div>
+<div data-ng-hide="!isAdmin">
 	<a href="win">Click here for super powers</a>
 </div>
 
@@ -10,9 +10,9 @@ $scope.isAdmin = false;
 
 //Hide this element when you have no items in an array called danceFLoor
 
-$scope.danceFLoor = [];
+$scope.danceFloor = [];
 
-<ul>
+<ul data-ng-hide="danceFloor">
 	<li ng-repeat="hater in hemanWomanHatersClub">{{member}}</li>
 </ul>
 
@@ -32,7 +32,7 @@ $scope.danceFloor = ['charles'];
 
 $scope.isAdmin = true;
 
-<div>
+<div data-ng-show="isAdmin">
 	<a href="win">Click here for super powers</a>
 </div>
 
